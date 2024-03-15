@@ -10,7 +10,7 @@ DATABASE_NAME = 'db.sqlite3'
 ANALYTICS_URL = 'https://www.google-analytics.com/collect'
 ANALYTICS_TID = 'UA-65034198-7'
 IP_URL = 'https://ipinfo.io/ip'
-USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'  # noqa
+USER_AGENT = 'titanhunters/119300020 CFNetwork/1492.0.1 Darwin/23.3.0'  # noqa
 
 # Fundamental constants.
 TEAM_SIZE = 5  # heroes
@@ -61,21 +61,21 @@ VERBOSITY_LEVELS = {
 
 # FIXME: obtain from the resources: `LIB_ENUM_HEROCOLOR_1`.
 COLORS: Dict[int, str] = {
-    1: 'Белый',
-    2: 'Зеленый',
-    3: 'Зеленый+1',
-    4: 'Синий',
-    5: 'Синий+1',
-    6: 'Синий+2',
-    7: 'Фиолетовый',
-    8: 'Фиолетовый+1',
-    9: 'Фиолетовый+2',
-    10: 'Фиолетовый+3',
-    11: 'Оранжевый',
-    12: 'Оранжевый+1',
-    13: 'Оранжевый+2',
-    14: 'Оранжевый+3',
-    15: 'Оранжевый+4',
+    1: 'White',
+     2: 'Green',
+     3: 'Green+1',
+     4: 'Blue',
+     5: 'Blue+1',
+     6: 'Blue+2',
+     7: 'Purple',
+     8: 'Purple+1',
+     9: 'Purple+2',
+     10: 'Purple+3',
+     11: 'Orange',
+     12: 'Orange+1',
+     13: 'Orange+2',
+     14: 'Orange+3',
+     15: 'Orange+4',
 }
 
 TITAN_ELEMENTS = {
